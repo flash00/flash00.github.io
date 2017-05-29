@@ -1,16 +1,67 @@
 body {
-  background: rgba(255, 230, 204,0.6);
+
+  background-image: url("background-image.jpg");
 }
 
 h1 {
+  font: georgia;
+  font-variant: small-caps;
+  color: rgba(115, 75, 38, 0.7);
   padding: 10px;
   border-width: 1px 4px 6px 4px;
   border-style: inset;
-  border-color: rgba(241, 230, 218 0.4);
+  border-color: rgba(241, 230, 218, 0.4);
   margin: 20px;
+}
+
+h2 {
+  color: rgba(115, 75, 38, 0.7);
+  font: georgia;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+ul {
+  color: rgba(115, 75, 38, 0.7);
+  font: georgia;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+table {
+  color: rgba(249, 242, 236, 1);
+  padding: 10px;
+  border-width: 1px;
+  border-style: inset;
+  border-color: rgba(241, 230, 218, 0.4);
+  margin: 10px;
 }
 
 footer{
   padding: 10px;
   text-align: center;
+}
+
+nav {
+  margin-left: 100px;
+}
+
+#visit {
+  font: helvetica;
+  color: rgba(249, 242, 236, 1);
+  margin-left: 100px;
+}
+
+.beige {
+  background: rgba(217, 177, 140, 0.3);
+}
+
+a:visited {
+  color: rgb(134, 88, 45);
+}
+
+@media screen and (max-width: 200px) {
+  body {
+    background-image: none;
+  }
 }
