@@ -1,3 +1,16 @@
 body {
-  background: blue;
+  background: rgba(255, 230, 204,0.6);
+}
+
+h1 {
+  padding: 10px;
+  border-width: 1px 4px 6px 4px;
+  border-style: inset;
+  border-color: rgba(241, 230, 218 0.4);
+  margin: 20px;
+}
+
+footer{
+  padding: 10px;
+  text-align: center;
 }
